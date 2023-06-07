@@ -3,7 +3,6 @@ setuptools<20.2
 beautifulsoup4
 requests
 google-auth
-google.colab
 google-cloud-storage
 elasticsearch
 cloud-sql-python-connector
