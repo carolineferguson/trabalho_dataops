@@ -20,10 +20,12 @@ jobs:
           pip install --upgrade pip
     - name : setuptools
       run:
+          |
           pip uninstall setuptools -y
           pip install setuptools==20.1
     - name: install python packages
       run:
+          |
           pip install -r requirements.txt
     - name: execute py script  
       run: 
