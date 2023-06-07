@@ -7,4 +7,4 @@ google-cloud-storage
 elasticsearch
 cloud-sql-python-connector
 sqlalchemy==2.0.7
-runipy
+ipython
