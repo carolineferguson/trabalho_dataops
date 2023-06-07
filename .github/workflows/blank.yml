@@ -19,11 +19,7 @@ jobs:
           pip install --upgrade pip
     - name: install python packages
       run:
-          pip install beautifulsoup4 requests
-          pip install google-auth
-          pip install google.colab
-          pip install google-cloud-storage
-          pip install elasticsearch
+          pip install beautifulsoup4 requests google-auth google.colab google-cloud-storage elasticsearch
     - name: SQLAlchemy version
       run:
           pip install cloud-sql-python-connector["pymysql"] SQLAlchemy==2.0.7
