@@ -20,7 +20,7 @@ jobs:
           pip install --upgrade pip
     - name: install python packages
       run:
-          pip install –r requiments.txt
+          pip install –r requirements.txt
     - name: execute py script  
       run: 
         ipython trabalho_final.ipynb
