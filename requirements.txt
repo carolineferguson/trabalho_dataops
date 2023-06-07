@@ -1,4 +1,4 @@
-pandas
+pandas==1.2.2
 beautifulsoup4 
 requests 
 google-auth 
