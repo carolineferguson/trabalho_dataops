@@ -29,4 +29,4 @@ jobs:
           pip install -r requirements.txt
     - name: execute py script  
       run: 
-        ipython trabalho_final.ipynb
+        runipy trabalho_final.ipynb
