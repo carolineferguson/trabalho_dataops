@@ -24,7 +24,7 @@ jobs:
           pip install setuptools==20.1
     - name: install python packages
       run:
-          pip install -r requirements.txt
+          python3 -m pip install -r requirements.txt
     - name: execute py script  
       run: 
         ipython trabalho_final.ipynb
