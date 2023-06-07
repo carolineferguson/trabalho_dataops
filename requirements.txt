@@ -1,4 +1,4 @@
-pandas==1.2.2
+pandas
 setuptools<20.2
 beautifulsoup4
 requests
